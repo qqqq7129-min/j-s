@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>장바구니 과제</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="box">
+        <h2>마트 장바구니</h2>
+        <div>
+            <input type="text" id="item-input" placeholder="살 물건 입력..." onkeydown="handleKeyDown(event)">
+            <button onclick="addItem()">추가</button>
+        </div>
+        <ul id="cart-list"></ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
